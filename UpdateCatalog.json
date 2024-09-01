@@ -1,8 +1,15 @@
 {
     "CurrentBranch": "ViolenceUpdate",
-    "LatestVersion": "1.0.0",
+    "LatestVersion": "1.0.1",
     "Updates": {
-        "ViolenceUpdate": []
+        "ViolenceUpdate": [
+            {
+                "Version": "1.0.1",
+                "Changelog": "- Fixed spite updater preventing building levels",
+                "Url": "https://raw.githubusercontent.com/eternalUnion/SpiteUpdates/main/Updates/ViolenceUpdate/1.0.1.unitypackage",
+                "FilesToDelete": []
+            }
+        ]
     },
     "Files": []
 }
