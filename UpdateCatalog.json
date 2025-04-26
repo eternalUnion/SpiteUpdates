@@ -1,15 +1,26 @@
 {
-    "CurrentBranch": "ViolenceUpdate",
-    "LatestVersion": "1.0.1",
+    "CurrentBranch": "RevampUpdate",
+    "LatestVersion": "1.1.0",
     "Updates": {
         "ViolenceUpdate": [
             {
                 "Version": "1.0.1",
                 "Changelog": "- Fixed spite updater preventing building levels",
-                "Url": "https://raw.githubusercontent.com/eternalUnion/SpiteUpdates/main/Updates/ViolenceUpdate/1.0.1.unitypackage",
+                "Url": "https://raw.githubusercontent.com/eternalUnion/SpiteUpdates/main/Patches/ViolenceUpdate/1.0.1.unitypackage",
                 "FilesToDelete": []
             }
-        ]
+        ],
+		"RevampUpdate": [
+			{
+				"Version": "1.1.0",
+				"Changelog": "- Modified Spite updater\n- Deleted a compiler generated script, preventing the project from opening properly if the project was built with Ultrakill patch 16d\n\nNOTE: If the project was generated before Ultrakill patch 16d, it may be a good idea to regenerate the project as there may be issues (for example, idols not working properly)",
+				"Url": "https://raw.githubusercontent.com/eternalUnion/SpiteUpdates/main/Patches/RevampUpdate/1.1.0.unitypackage",
+				"FilesToDelete": [
+					"Assets/Scripts/Assembly-CSharp/__JobReflectionRegistrationOutput__1221673671587648887.cs",
+					"Assets/Scripts/Assembly-CSharp/__JobReflectionRegistrationOutput__1221673671587648887.cs.meta"
+				]
+			}
+		]
     },
     "Files": []
 }
